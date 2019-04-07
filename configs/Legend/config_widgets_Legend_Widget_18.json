@@ -1,0 +1,20 @@
+{
+  "legend": {
+    "arrangement": 0,
+    "autoUpdate": true,
+    "respectCurrentMapScale": true
+  },
+  "layerState": {
+    "Puntos_Rutas_Turis_All_Info_2052": {
+      "selected": true
+    },
+    "Mapa_Rutas_8583": {
+      "selected": true
+    },
+    "Puntos_Rutas_Turis_All_Info_2052_8000": {
+      "selected": false
+    }
+  },
+  "syncWithWebmap": false,
+  "showLegendForBasemap": false
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Markazi+Text');
+
+.jimu-main-font {
+    font-family: 'Bellefair', serif;
+}
+
+.jimu-foldable-panel .title-label {
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex-grow: 1;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.jimu-widget {
+    font-size: 15px;
+    font-weight: normal;
+    color: #000;
+}
+
+.col1 {
+    margin-right: 10px;
+}
+
+.arcgisSearch .searchIcon {
+  color: #7A99AC;
+  font-size: 20px;
+}
+
+.esriPopup .actionsPane {
+  display: none;
+}
+
+button{
+  padding: 6px;
+  border-radius: 15px;
+}
+
+#Costa{
+  background-color: #89e5c3;
+  width: 230px;
+  font: inherit;
+  font-size: unset;
+}
+
+#Montaña{
+  background-color: #7dce49;
+  width: 230px;
+  font: inherit;
+  font-size: unset;
+}
+
+#Historica{
+  background-color: #f6983a;
+  width: 230px;
+  font: inherit;
+  font-size: unset;
+}
+
+#modoDeViaje{
+  font: inherit;
+  font-size: unset;
+  border-radius: 15px;
+  padding-left: 5px;
+}
+
+#btnDrawEvent{cursor: pointer;
+position: absolute;
+right: 58px;
+top: 321px;}
+
+#numFacilities{
+  font: inherit;
+  font-size: unset;
+  border-radius: 15px;
+  padding-left: 5px;
+}
+
+#chkLimitTravelTime{
+  font: inherit;
+  font-size: unset;
+}
+
+#numMaxTravelTime{
+  font: inherit;
+  font-size: unset;
+  border-radius: 15px;
+  padding-left: 5px;
+}
+
+#btnClear{
+  position: absolute;
+  right: 146px;
+  font: inherit;
+  font-size: unset;
+  background-color: #ffffdd;
+  vertical-align: middle;
+  width: 105px;
+  top: 407px;
+}
+
+#btnSolve{
+  width: 105px;
+  font: inherit;
+  font-size: unset;
+  background-color: #ffffdd;
+  vertical-align: middle;
+}
+
+.LocateButton .zoomLocateButton {
+    position: absolute;
+    padding: 2px;
+    width: 35px;
+    height: 34px;
+    right: 52px;
+    top: 0px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}

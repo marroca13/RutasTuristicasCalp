@@ -1,0 +1,243 @@
+{
+  "theme": {
+    "name": "TemaMar",
+    "styles": [
+      "default",
+      "black",
+      "blue",
+      "green"
+    ],
+    "version": "2.11",
+    "sharedTheme": {
+      "useHeader": true,
+      "useLogo": true,
+      "isPortalSupport": true
+    },
+    "customStyles": {
+      "mainBackgroundColor": null
+    }
+  },
+  "portalUrl": "http://ricardoandres92.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Rutas Turísticas",
+  "subtitle": "with Web AppBuilder for ArcGIS",
+  "keepAppState": true,
+  "logo": "images/app-logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "panel": {
+      "uri": "themes/TemaMar/panels/SimpleBorderPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "themes/TemaMar/widgets/SidebarController/Widget",
+        "position": {
+          "right": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 80,
+          "relativeTo": "browser"
+        },
+        "id": "themes_TemaMar_widgets_SidebarController_Widget_22",
+        "name": "SidebarController",
+        "version": "2.11"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 10,
+          "bottom": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Scalebar_Widget_23",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 10,
+          "top": 80,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_HomeButton_Widget_24",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 140,
+          "bottom": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_Coordinate_Widget_25",
+        "name": "Coordinate"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 10,
+          "left": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.11",
+        "id": "widgets_ZoomSlider_Widget_26",
+        "name": "ZoomSlider"
+      }
+    ]
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "e6753cb92ebc4def81a3148decc2c94b",
+    "mapOptions": {
+      "extent": {
+        "xmin": 598.2933433285125,
+        "ymin": 4668677.375173411,
+        "xmax": 11452.351359808912,
+        "ymax": 4674840.110578896,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      "lods": [
+        {
+          "level": 1,
+          "scale": 36111.909643,
+          "resolution": 9.554628535634155
+        },
+        {
+          "level": 2,
+          "scale": 18055.954822,
+          "resolution": 4.77731426794937
+        },
+        {
+          "level": 3,
+          "scale": 9027.977411,
+          "resolution": 2.388657133974685
+        },
+        {
+          "level": 4,
+          "scale": 4513.988705,
+          "resolution": 1.1943285668550503
+        },
+        {
+          "level": 5,
+          "scale": 2256.994353,
+          "resolution": 0.5971642835598172
+        },
+        {
+          "level": 6,
+          "scale": 1128.497176,
+          "resolution": 0.29858214164761665
+        },
+        {
+          "level": 7,
+          "scale": 564.248588,
+          "resolution": 0.14929107082380833
+        },
+        {
+          "level": 8,
+          "scale": 282.124294,
+          "resolution": 0.07464553541190416
+        },
+        {
+          "level": 9,
+          "scale": 141.062147,
+          "resolution": 0.03732276770595208
+        },
+        {
+          "level": 10,
+          "scale": 70.5310735,
+          "resolution": 0.01866138385297604
+        }
+      ]
+    },
+    "id": "map",
+    "portalUrl": "https://ricardoandres92.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/TemaMar/panels/SimpleBorderPanel/Panel",
+      "position": {
+        "top": 0,
+        "right": 80,
+        "bottom": 0,
+        "width": 400,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "name": "InfoIdiomas",
+        "version": "2.11",
+        "IsController": false,
+        "uri": "widgets/InfoIdiomas/Widget",
+        "index": 2,
+        "id": "widgets_InfoIdiomas_Widget_20",
+        "label": "Información"
+      },
+      {
+        "name": "ClosestFacility",
+        "version": "1.3",
+        "IsController": false,
+        "uri": "widgets/ClosestFacility/Widget",
+        "config": "configs/ClosestFacility/config_widgets_ClosestFacility_Widget_27.json",
+        "index": 3,
+        "id": "widgets_ClosestFacility_Widget_27",
+        "label": "Ruta más cercana"
+      },
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.11",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 4,
+        "label": "Leyenda",
+        "config": "configs/Legend/config_widgets_Legend_Widget_18.json"
+      }
+    ],
+    "groups": []
+  },
+  "loadingPage": {
+    "backgroundColor": "#ffffff",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/loading.gif",
+      "width": 480,
+      "height": 480
+    }
+  },
+  "wabVersion": "2.11",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {},
+    "settings": {}
+  }
+}
